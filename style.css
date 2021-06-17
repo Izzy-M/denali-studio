@@ -13,6 +13,9 @@
     font-size: 40px;
 }
 .sh-text{font-weight: bold;}
-.b-text{
-    height:250px;width:90% !important;text-align: center !important;
+.b1-text{
+    min-height:300px;width:90% !important;text-align: center !important;display: flex;flex-direction: column;justify-content: space-around; align-items: center; padding:30px;
+}
+.b2-text{
+    min-height:300px;width:100%;background-image:url('assets/backgrounds/s_image.jpg');background-repeat: no-repeat;background-size: cover;display: flex;flex-direction: column;justify-content: space-around; align-items: center;padding: 20px;color:white;
 }
