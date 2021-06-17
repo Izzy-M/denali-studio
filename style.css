@@ -7,7 +7,7 @@
     text-align: center;color: white;display: flex;flex-direction: column;justify-content: space-around; align-items: center;
 }
 .log{
-    height: 80px;width: 80px;border-radius: 50%;border:3px solid white; line-height: 70px;
+    height: 80px;width: 80px;margin: 2em;
 }
 .htext{
     font-size: 40px;
@@ -18,4 +18,16 @@
 }
 .b2-text{
     min-height:300px;width:100%;background-image:url('assets/backgrounds/s_image.jpg');background-repeat: no-repeat;background-size: cover;display: flex;flex-direction: column;justify-content: space-around; align-items: center;padding: 20px;color:white;
+}
+.b3-text{
+    min-height:300px;width:100%;display: flex;flex-direction: column;justify-content: space-around; align-items: center;padding: 20px;
+}
+.b3-text-content{
+    display: flex;flex-direction: row;justify-content: space-around;align-items: flex-start;width:100%; min-height:250px;padding:20px;
+}
+.ccontent{
+    text-align: center !important;background-color: blue;
+}
+.b3-text-content img{
+    cursor: pointer;
 }
