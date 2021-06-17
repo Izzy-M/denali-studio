@@ -1,3 +1,6 @@
+::selection{
+    background-color: transparent;
+}
 .top{
     height: 600px;width: 100%;background-image:url("assets/backgrounds/h_img.jpg") !important;
     background-size: cover;background-repeat: no-repeat;overflow: auto;
@@ -23,11 +26,26 @@
     min-height:300px;width:100%;display: flex;flex-direction: column;justify-content: space-around; align-items: center;padding: 20px;
 }
 .b3-text-content{
-    display: flex;flex-direction: row;justify-content: space-around;align-items: flex-start;width:100%; min-height:250px;padding:20px;
+    display: flex;flex-direction: row;justify-content: space-around;align-items: center;width:100%; min-height:250px;padding:20px;
 }
-.ccontent{
-    text-align: center !important;background-color: blue;
-}
+.m2-cont{text-align: center;}
 .b3-text-content img{
     cursor: pointer;
+}
+.portfolio{
+min-height: 300px;width:100%; display: flex;flex-direction: row;justify-content: space-around;align-items: center;padding:20px;
+}
+
+.formholder{
+    height:auto;width:60%;background: transparent;
+}
+input[type="text"],[type="email"]{
+    background-color: transparent;color:white;border: 2px solid white;height:30px;width:48%;outline: none;
+}
+::placeholder{
+    color:white;
+}
+textarea{
+    background-color: transparent;border: 2px solid white; width: 95%;height:200px;
+    resize: none;outline:none;
 }
