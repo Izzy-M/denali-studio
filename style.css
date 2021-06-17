@@ -13,3 +13,6 @@
     font-size: 40px;
 }
 .sh-text{font-weight: bold;}
+.b-text{
+    height:250px;width:90% !important;text-align: center !important;
+}
