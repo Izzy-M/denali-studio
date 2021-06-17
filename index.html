@@ -2,7 +2,7 @@
 <html lang="en">
 <script src="jquery.js"></script>
 <script src="javascript.js"></script>
-<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="assets/logo/logo.png" type="image/x-icon">
 <link rel="stylesheet" href="style.css">
 <!-- Access manual if online is unavailable -->
 <link rel="stylesheet" href="bootstrap.min.css">
@@ -55,21 +55,38 @@
     <div class="container-fluid b3-text">
         <h2>WHAT WE DO</h2>
         <div class="b3-text-content">
-            <div class="col-3 offset-md-1" onclick="showDescrption()">
+            <div class="col-3 offset-md-1 m2-cont" onclick="showDescrption()">
                 <img src="assets/services_icons/design_icon.png" alt="design">
-                <div class="row ccontent">DESIGN </div>
+                <div class="m2-cont">DESIGN </div>
             </div>
-            <div class="col-3 offset-md-1">
+            <div class="col-3 offset-md-1 m2-cont">
                 <img src="assets/services_icons/dev_icon.png" alt="development">
-                <div class="row ccontent">DEVELOPMENT</div>
+                <div class="m2-cont">DEVELOPMENT</div>
             </div>
-            <div class="col-3 offset-md-1">
+            <div class="col-3 offset-md-1 m2-cont">
                 <img src="assets/services_icons/product_icon.png" alt="Product management">
-                <div class="row ccontent">PRODUCT MANAGEMENT</div>
+                <div class=" m2-cont">PRODUCT MANAGEMENT</div>
             </div>
         </div>
     </div>
-   
+    <div class="container-fluid contact">
+        <div class="row">
+            <h2>CONTACT US</h2>
+        </div>
+        <div class="formholder">
+            <form id="formdata">
+               <p> 
+                   <input type="text" id="name" placeholder="name">
+                   <input type="email" id="email" placeholder="email">
+                   <p></p>
+                   <textarea  id="message" placeholder="Your message here.."></textarea>
+                
+                </p>
+            </form>
+        </div>
+    </div>
+    <div class="container-fluid">Social media</div>
+
 </body>
 
 </html>
