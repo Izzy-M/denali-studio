@@ -41,9 +41,9 @@
         <p>
         <h2>SERVICES</h2>
         </p>
-        <P>
-            Before we sign a contract or write a line of code, our team will spend a the necessary time needed to
-            understand your project vision.
+        <p>
+        Before we sign a contract or write a line of code, our team will spend a the necessary time needed to
+        understand your project vision.
         </P>
         <p>
             The outcome of this scoping session is a proposal or high level statementt of work
@@ -55,17 +55,59 @@
     <div class="container-fluid b3-text">
         <h2>WHAT WE DO</h2>
         <div class="b3-text-content">
-            <div class="col-3 offset-md-1 m2-cont" onclick="showDescrption()">
-                <img src="assets/services_icons/design_icon.png" alt="design">
-                <div class="m2-cont">DESIGN </div>
+            <div class="col-4 m2-div" id="design">
+               
+                <div  class="m2-cont" id="des-icon">
+                    <img src="assets/services_icons/design_icon.png" alt="design">
+                    <div class="m2-cont">DESIGN </div>
+                </div>
             </div>
-            <div class="col-3 offset-md-1 m2-cont">
-                <img src="assets/services_icons/dev_icon.png" alt="development">
-                <div class="m2-cont">DEVELOPMENT</div>
+            <div class="col-4 m2-div" id="development">
+                
+                <div class="m2-cont" id="dev-icon">
+                    <img src="assets/services_icons/dev_icon.png" alt="development" id="dev_icon">
+                    <div class="m2-cont">DEVELOPMENT</div>
+                </div>
             </div>
-            <div class="col-3 offset-md-1 m2-cont">
-                <img src="assets/services_icons/product_icon.png" alt="Product management">
-                <div class=" m2-cont">PRODUCT MANAGEMENT</div>
+            <div class="col-4 m2-div" id="management">
+               
+                <div class="m2-cont" id="m-icon">
+                    <img src="assets/services_icons/product_icon.png" alt="Product management">
+                    <div class=" m2-cont">PRODUCT MANAGEMENT</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="container-fluid row">
+        <span class=" row m2-cont">
+            <h2>PORTFOLIO</h2>
+        </span>
+
+        <div class="container-fluid row portholder">
+            <div class="col-3 project">
+                <img src="assets/portfolio/work4.jpg" alt="Project 1" height="250px" width="250px">
+            </div>
+            <div class="col-3 project">
+                <img src="assets/portfolio/work3.jpg" alt="Project 2" height="250px" width="250px">
+            </div>
+            <div class=" col-3 project">
+                <img src="assets/portfolio/work2.jpg" alt="project 3" height="250px" width="250px">
+            </div>
+            <div class=" col-3 project">
+                <img src="assets/portfolio/work1.jpg" alt="project 4" height="250px" width="250px">
+            </div>
+            <div class="col-3 project">
+                <img src="assets/portfolio/work5.jpg" alt="project 5" height="250px" width="250px">
+            </div>
+            <div class="col-3 project">
+                <img src="assets/portfolio/work6.jpg" alt="project 6" height="250px" width="250px">
+            </div>
+            <div class="col-3 project">
+                <img src="assets/portfolio/work7.jpg" alt="project 7" height="250px" width="250px">
+            </div>
+            <div class="col-3 project">
+                <img src="assets/portfolio/work8.jpg" alt="project 8" height="250px" width="250px">
             </div>
         </div>
     </div>
@@ -75,12 +117,12 @@
         </div>
         <div class="formholder">
             <form id="formdata">
-               <p> 
-                   <input type="text" id="name" placeholder="name">
-                   <input type="email" id="email" placeholder="email">
-                   <p></p>
-                   <textarea  id="message" placeholder="Your message here.."></textarea>
-                
+                <p>
+                    <input type="text" id="name" placeholder="Name" required>
+                    <input type="email" id="email" placeholder="Email" required>
+                <p></p>
+                <textarea id="message" placeholder="Your message here..." form_id="formdata" required></textarea>
+
                 </p>
             </form>
         </div>
