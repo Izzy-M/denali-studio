@@ -15,7 +15,7 @@
 .htext{
     font-size: 40px;
 }
-.sh-text{font-weight: bold;}
+.sh-info{font-weight: bold;}
 .b1-text{
     min-height:300px;width:90% !important;text-align: center !important;display: flex;flex-direction: column;justify-content: space-around; align-items: center; padding:30px;
 }
@@ -29,7 +29,7 @@
     display: flex;flex-direction: row;justify-content: space-between;align-items: center;width:100%; min-height:200px;padding:20px;
 }
 .desc{
-    height: 96%;width:100%;display:none;text-align: center;
+    height: 96%;width:100%;display:none;text-align: center;font-size: 1em;
 }
 .m2-div{text-align: center;height: 250px;width:98% !important;}
 .m2-cont{text-align: center;}
@@ -37,10 +37,10 @@
 min-height: 450px;width:100%; 
 }
 .project{
-    margin-top:10px !important;width: 20% !important;margin-bottom:10px !important
+    margin:20px !important;max-width: 22% !important; text-align: center !important; min-width:200px !important;
 }
 .portholder{
-    display:flex;min-height:300px;width:80%;flex-direction: row;align-items: center;justify-content: space-around;
+    display:flex !important;min-height:300px !important;width:85% !important;flex-direction: row;justify-content: space-around;align-items: center;padding-left:20px !important ;margin:0px auto !important;
 }
 .contact{
 min-height:250px ;width:100%; display: flex;flex-direction: column;justify-content: space-around;align-items: center;padding:20px;background-image: url('assets/backgrounds/c_image.jpg');background-repeat: no-repeat;color: white;
