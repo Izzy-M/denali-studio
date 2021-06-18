@@ -23,17 +23,24 @@
     min-height:300px;width:100%;background-image:url('assets/backgrounds/s_image.jpg');background-repeat: no-repeat;background-size: cover;display: flex;flex-direction: column;justify-content: space-around; align-items: center;padding: 20px;color:white;
 }
 .b3-text{
-    min-height:300px;width:100%;display: flex;flex-direction: column;justify-content: space-around; align-items: center;padding: 20px;
+    min-height:250px;width:100%;display: flex;flex-direction: column;justify-content: space-between; align-items: center;padding: 20px;
 }
 .b3-text-content{
-    display: flex;flex-direction: row;justify-content: space-around;align-items: center;width:100%; min-height:250px;padding:20px;
+    display: flex;flex-direction: row;justify-content: space-between;align-items: center;width:100%; min-height:200px;padding:20px;
 }
+.m2-div{text-align: center;height: 250px;width:98% !important;}
 .m2-cont{text-align: center;}
-.b3-text-content img{
-    cursor: pointer;
-}
 .portfolio{
-min-height: 300px;width:100%; display: flex;flex-direction: row;justify-content: space-around;align-items: center;padding:20px;
+min-height: 450px;width:100%; 
+}
+.project{
+    margin-top:10px !important;width: 20% !important;margin-bottom:10px !important
+}
+.portholder{
+    display:flex;min-height:300px;width:80%;flex-direction: row;align-items: center;justify-content: space-around;
+}
+.contact{
+min-height:250px ;width:100%; display: flex;flex-direction: column;justify-content: space-around;align-items: center;padding:20px;background-image: url('assets/backgrounds/c_image.jpg');background-repeat: no-repeat;color: white;
 }
 
 .formholder{
@@ -46,6 +53,5 @@ input[type="text"],[type="email"]{
     color:white;
 }
 textarea{
-    background-color: transparent;border: 2px solid white; width: 95%;height:200px;
-    resize: none;outline:none;
+    background-color: transparent;border: 2px solid white; width: 95%;height:200px;outline:none;resize: none;
 }
