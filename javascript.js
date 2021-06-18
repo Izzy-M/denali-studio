@@ -1,0 +1,23 @@
+$("document").ready(
+   function(){
+       $("#design").click(
+           function(){
+               $("#des-icon").toggle();
+               $("#des-content").toggle();
+               
+           }
+       );
+       $("#development").click(
+           function(){
+               $("#dev-icon").toggle();
+               $("#dev-content").toggle();
+           }
+       );
+       $("#management").click(
+           function(){
+               $("#m-icon").toggle();
+               $("#m-content").toggle();
+           }
+       );
+   }
+);
