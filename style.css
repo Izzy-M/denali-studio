@@ -55,8 +55,14 @@ input[type="text"],[type="email"]{
     color:white;
 }
 textarea{
-    background-color: transparent;border: 2px solid white; width: 95%;height:200px;outline:none;resize: none;
+    background-color: transparent;border: 2px solid white; width: 95%;height:250px;outline:none;resize: none;
 }
 .nameholder{
     border:2px solid white;background:transparent;color:white;font-weight: bold;font-size:30px;z-index: 9;display:none;width: 80%;height:80%;position: absolute;top:10%;left:10%;
+}
+.cover{
+    background:rgba(38, 31, 15,0.5);z-index: 5;display:none;width: 100%;height:100%;position: absolute;top:0px;left:0px;
+}
+.socialholder{
+    margin-top: 15px !important;margin-bottom: 10px !important;
 }
