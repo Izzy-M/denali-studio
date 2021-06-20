@@ -1,3 +1,4 @@
+//interactions with the user interface
 $("document").ready(
     function () {
         $("#design").click(
@@ -131,5 +132,47 @@ $("document").ready(
                 }
             }
         );
+        getData();
+        
     }
 );
+//Validate data
+function _(el) {
+    return document.getElementById(el);
+}
+function mailCheck(mail) {
+    var regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+    return regex.test(mail);
+
+
+}
+function getData(){
+    $("#formdata").submit(
+        function (e) {
+            e.preventDefault();
+            var name = $("#name").val();
+            var mail = $("#mail").val();
+            var message = $("#message").val();
+            if (!name.trim()) {
+                $(".alert").text("The user name is empty!");
+            }
+            else if (!mail.trim()) {
+                $(".alert").text("The user email is empty!");
+            }
+            else if (!message.trim()) {
+                $(".alert").text("The message field is empty!");
+            }
+            else if (!mailCheck(mail)) {
+                $(".alert").text("Enter a valid Email address!");
+            }
+            else {
+                setTimeout(function () {
+                    alert(name + " thank you we have received your message!");
+                    
+                }, 1000);
+                $(".alert").text('');
+                _("formdata").reset();
+            }
+        }
+    );
+};
