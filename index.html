@@ -16,8 +16,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Denali Studio</title>
     <!-- connect to mailchamp-->
-    <script
-        id="mcjs">!function (c, h, i, m, p) { m = c.createElement(h), p = c.getElementsByTagName(h)[0], m.async = 1, m.src = i, p.parentNode.insertBefore(m, p) }(document, "script", "https://chimpstatic.com/mcjs-connected/js/users/7863a5b20c495fb97a7f1d9f7/7f6e3fc245baac60a7a128d0e.js");</script>
 </head>
 
 <body>
@@ -169,20 +167,16 @@
             <h2>CONTACT US</h2>
         </div>
         <div class="formholder">
-            <form id="formdata" onsubmit="formInfo(event)">
-                <p>
-                    <input type="text" id="name" placeholder="Name" name="name" required autofocus autocomplete="off">
-                    <input type="email" id="mail" placeholder="Email" name="mail" required autocomplete="off">
-                <p></p>
-                <textarea id="message" placeholder="Your message here..." name="message" required
-                    autocomplete="off"></textarea>
-
-                </p>
-
+            <form id="formdata" onsubmit="sendData(event)">
+               <p> <input type="text" id="name" placeholder="Name" onkeyup="checkName()" required>
+                <input type="text"  id="mail" placeholder="Email" onkeyup="checkMail()" required></p><p>    <textarea id="message" placeholder="Your Message here..." onkeyup="checkMessage()" 
+                    required></textarea>
+                    <input type="submit" value="Send"><span class="alert"></span>
+                    </p>
             </form>
         </div>
     </div>
-    <div class="container-fluid">
+   <div class="container-fluid">
         <div class="col-6 offset-md-4 socialholder">
             <img src="assets/social_icons/twitter.png" alt="twitter" height="40px" width="40px">
             <img src="assets/social_icons/dribble.png" alt="dribble" height="40px" width="40px">
