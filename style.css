@@ -1,6 +1,9 @@
 ::selection{
     background-color: transparent;
 }
+h2{
+    font-weight: bold;
+}
 .top{
     height: 900px;width: 100%;background-image:url("assets/backgrounds/h_img.jpg") !important;
     background-size: cover;background-repeat: no-repeat;overflow: auto;
@@ -51,11 +54,15 @@ min-height:250px ;width:100%; display: flex;flex-direction: column;justify-conte
 input[type="text"],[type="email"]{
     background-color: transparent;color:white;border: 2px solid white;height:40px;width:48%;outline: none;
 }
+.alert{
+    color:red;
+}
 ::placeholder{
     color:white;
 }
 textarea{
     background-color: transparent;border: 2px solid white; width: 95%;height:250px;outline:none;resize: none;
+    color:white;
 }
 .nameholder{
     border:2px solid white;background:transparent;color:white;font-weight: bold;font-size:30px;z-index: 9;display:none;width: 80%;height:80%;position: absolute;top:10%;left:10%;
