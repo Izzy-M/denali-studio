@@ -1,6 +1,7 @@
 //interactions with the user interface
 $("document").ready(
     function () {
+        _("formdata").reset();
         $("#design").click(
             function () {
                 $("#des-icon").toggle();
@@ -133,7 +134,7 @@ $("document").ready(
             }
         );
         getData();
-        
+
     }
 );
 //Validate data
@@ -146,7 +147,7 @@ function mailCheck(mail) {
 
 
 }
-function getData(){
+function getData() {
     $("#formdata").submit(
         function (e) {
             e.preventDefault();
@@ -168,7 +169,7 @@ function getData(){
             else {
                 setTimeout(function () {
                     alert(name + " thank you we have received your message!");
-                    
+
                 }, 1000);
                 $(".alert").text('');
                 _("formdata").reset();
