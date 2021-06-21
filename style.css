@@ -49,10 +49,10 @@ min-height: 450px;width:100%;
 min-height:250px ;width:100%; display: flex;flex-direction: column;justify-content: space-around;align-items: center;padding:20px;background-image: url('assets/backgrounds/c_image.jpg');background-repeat: no-repeat;color: white;
 }
 .formholder{
-    height:auto;width:60%;background: transparent;
+    height: auto !important;width:60%;background: transparent !important;
 }
-input[type="text"],[type="email"]{
-    background-color: transparent;color:white;border: 2px solid white;height:40px;width:48%;outline: none;
+.input{
+    background-color: transparent !important;color:white !important;border: 2px solid white !important;height:40px !important;width:48% !important;outline: none !important;
 }
 .alert{
     color:red;
@@ -60,7 +60,7 @@ input[type="text"],[type="email"]{
 ::placeholder{
     color:white;
 }
-textarea{
+.textarea{
     background-color: transparent;border: 2px solid white; width: 95%;height:250px;outline:none;resize: none;
     color:white;
 }
@@ -72,4 +72,12 @@ textarea{
 }
 .socialholder{
     margin-top: 15px !important;margin-bottom: 10px !important;
+}
+h2{
+    font-family: 'Open Sans', sans-serif;
+}
+#mc_embed_signup {
+    background: #fff;
+    clear: left;
+    font: 14px Helvetica, Arial, sans-serif;
 }
