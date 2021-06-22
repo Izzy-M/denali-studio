@@ -5,20 +5,23 @@ h2{
     font-weight: bold;
 }
 .top{
-    height: 900px;width: 100%;background-image:url("assets/backgrounds/h_img.jpg") !important;
+    height: 1090px;width: 100%;background-image:url("assets/backgrounds/h_img.jpg") !important;
     background-size: cover;background-repeat: no-repeat;overflow: auto;
-    display: flex;align-items: center;flex-direction: column;justify-content: center;
+    display: flex;align-items: center;flex-direction: column;justify-content: flex-end;
 }
 .hinfo{
-    text-align: center;color: white;display: flex;flex-direction: column;justify-content: space-around; align-items: center;
+    text-align: center;color: white;display: flex;flex-direction: column;justify-content: space-around; align-items: center;margin-top: 10px;
 }
 .log{
-    height: 80px;width: 80px;margin: 2em;
+    height: 100px;width: 100px;margin: 20px;
+}
+.hmouse{
+    height:150px; margin-top:200px;width: 100px;
 }
 .htext{
-    font-size: 40px;
+    font-size: 40px;margin-top: 80px;
 }
-.sh-info{font-weight: bold;}
+.sh-info{font-weight: bold;margin-top: 80px;}
 .b1-text{
     min-height:300px;width:90% !important;text-align: center !important;display: flex;flex-direction: column;justify-content: space-around; align-items: center; padding:30px;
 }
