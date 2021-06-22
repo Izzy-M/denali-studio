@@ -1,7 +1,11 @@
 //interactions with the user interface
 $("document").ready(
     function () {
-        _("formdata").reset();
+        $("#mouse").on({
+           mouseenter: function(){
+                $(this).effect("bounce",{times:2},1000);
+            }}
+        );
         $("#design").click(
             function () {
                 $("#des-icon").toggle();
