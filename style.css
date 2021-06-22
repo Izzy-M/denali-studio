@@ -35,7 +35,7 @@ h2{
     display: flex;flex-direction: row;justify-content: space-between;align-items: center;width:100%; min-height:200px;padding:20px;
 }
 .desc{
-    height: 96%;width:80%;display:none;text-align: center;font-size: 1em;
+    height: 96%;width:95%;display:none;text-align: center;font-size: 1em;
 }
 .m2-div{text-align: center;height: 250px;width:98% !important;}
 .m2-cont{text-align: center;}
