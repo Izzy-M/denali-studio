@@ -21,7 +21,12 @@ To instal this work for your personal use, follow these steps
 5. Move the folder to your preferred location  
 6. Open index.html and get your mailchimp customized code and copy it as required by mailchimp  
 7. Done!!
+
 ## Technology
+ 1. CSS  
+ 2. Jquery library  
+3.JquetUi library  
+
 ## License
 The software is free of use to all users and am not liable for any damage thta may be caused  by software
 [MIT](LICENSE)  
